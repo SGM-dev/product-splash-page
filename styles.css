@@ -24,8 +24,9 @@ p {
   line-height: 1.35;
 }
 
-.beta-text, .subheading {
-    text-transform: uppercase;
+.beta-text,
+.subheading {
+  text-transform: uppercase;
 }
 
 .beta-text {
@@ -76,3 +77,14 @@ p {
 /* =================
     Media queries 
    ================= */
+
+@media (min-width: 576px) {
+  body {
+    display: flex;
+  }
+
+  .intro,
+  .main-content {
+    flex: 1;
+  }
+}
