@@ -24,6 +24,10 @@ p {
   line-height: 1.35;
 }
 
+.beta-text, .subheading {
+    text-transform: uppercase;
+}
+
 .beta-text {
   font-weight: 900;
 }
