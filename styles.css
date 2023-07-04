@@ -88,19 +88,39 @@ p {
   Form
  ================= */
 
+button,
 input {
   font-family: inherit;
   width: 100%;
+  border-radius: 5px;
+}
+
+input {
   margin-bottom: 0.8em;
   padding: 0.5em;
   border: 2px solid #d1d5db;
-  border-radius: 5px;
 }
 
 input:focus {
   outline: none;
   border-color: #8a71ec;
   background-color: #e6e8ec;
+}
+
+.btn {
+  margin-top: 1em;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #8a71ec;
+  color: #fff;
+  padding: 0.8em 0;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: #b7a7f6;
+  cursor: pointer;
 }
 
 /* =================
