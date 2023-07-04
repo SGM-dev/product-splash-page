@@ -39,6 +39,12 @@ p {
   text-transform: uppercase;
 }
 
+.fine-print {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #858585;
+}
+
 /* =================
   Flex containers
  ================= */
@@ -60,7 +66,7 @@ p {
   min-height: 250px;
   text-align: center;
   color: #fff;
-  background: url("/images/intro-bg.png") #9480e4;
+  background: #9480e4 url("images/intro-bg.png");
   background-size: cover;
 }
 
@@ -82,6 +88,13 @@ p {
   Form
  ================= */
 
+
+input {
+  width: 100%;
+  margin-bottom: 0.8em;
+  padding: 0.5em;
+}
+
 /* =================
   Media queries 
  ================= */
@@ -89,6 +102,18 @@ p {
 @media (min-width: 576px) {
   body {
     display: flex;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 2.625rem;
+  }
+
+  .beta-text {
+    font-size: 1.25rem;
   }
 
   .intro,
@@ -103,17 +128,5 @@ p {
   .main-content {
     justify-content: center;
     padding-top: 0;
-  }
-
-  h1 {
-    font-size: 4vw;
-  }
-
-  h2 {
-    font-size: 2.625rem;
-  }
-
-  .beta-text {
-    font-size: 1.25rem;
   }
 }
